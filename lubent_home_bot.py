@@ -16,7 +16,7 @@ from urllib2 import urlopen
 import logging
 
 try:
-	### load config file
+	### load config file from current directory
 	config = load(open('config_home_bot.json'))
 
 	### allowed chat IDs
